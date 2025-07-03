@@ -1,29 +1,18 @@
 # Beginning_with_React
 
-## How to Push Code to GitHub
+## How to Commit and Push All Changes in Your Git Repo
 
-1. Initialize git (if not already done):
-   ```
-   git init
-   ```
-
-2. Add your files:
+1. Stage all changes:
    ```
    git add .
    ```
 
-3. Commit your changes:
+2. Commit the changes with a message:
    ```
    git commit -m "Your commit message"
    ```
 
-4. Add the remote repository (replace URL with your repo's URL):
+3. Push to your remote repository:
    ```
-   git remote add origin https://github.com/your-username/your-repo.git
+   git push
    ```
-
-5. Push to GitHub:
-   ```
-   git push -u origin main
-   ```
-   *(Use `master` instead of `main` if your default branch is named `master`.)*
