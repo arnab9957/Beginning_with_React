@@ -12,8 +12,11 @@ function App() {
   const AddCount = () => {
     console.log("Ahh!!", Math.random());
     if (count < 20) {
-        setCount(count+1)
-        
+        setCount(previousCounter => previousCounter + 1)
+        setCount(previousCounter => previousCounter + 1) //passes A CALLBACK 
+        // Now when the button is hit the counter will increment by 1.
+        // setCount(count + 1)
+        // setCount(count + 1) This will not incremented by 1 because it will always go as a branch of same data. 
       }
 
     if (count === 20){
