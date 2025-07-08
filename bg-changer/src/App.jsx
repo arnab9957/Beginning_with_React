@@ -12,12 +12,19 @@ function App() {
       <button onClick={ () => setColor("red")}
       className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"
         >Violate</button>
-      <button className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Violate</button>
-      <button className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Violate</button>
-      <button className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Violate</button>
-      <button className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Violate</button>
-      <button className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Violate</button>
-      <button className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Violate</button>
+      <button onClick={ () => setColor("blue")}
+       className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Blue</button>
+      <button onClick={ () => setColor("sky")}
+      className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Sky</button>
+
+      <button onClick={ () => setColor("green")}
+      className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Green</button>
+      <button onClick={ () => setColor("yellow")}
+      className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Yellow</button>
+      <button onClick={ () => setColor("orange")}
+      className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Orange</button>
+      <button onClick={ () => setColor("red")}
+      className="bg-violet-900 size-20px px-3 py-4 rounded-2xl font-extrabold text-white shadow-neutral-950"  >Red</button>
       </div>
     </div>
     </div>
