@@ -4,10 +4,70 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Currency Converter - Real-time Exchange Rates</title>
+    <meta name="description" content="Convert currencies with real-time exchange rates. Fast, accurate, and easy-to-use currency converter with support for major world currencies." />
+    <meta name="keywords" content="currency converter, exchange rates, forex, money converter, USD, EUR, GBP, INR" />
+    <meta name="author" content="Currency Converter App" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Currency Converter - Real-time Exchange Rates" />
+    <meta property="og:description" content="Convert currencies with real-time exchange rates. Fast, accurate, and easy-to-use currency converter." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Currency Converter - Real-time Exchange Rates" />
+    <meta name="twitter:description" content="Convert currencies with real-time exchange rates. Fast, accurate, and easy-to-use currency converter." />
+    <meta name="twitter:image" content="https://your-domain.com/twitter-image.jpg" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#6366f1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Currency Converter" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://open.er-api.com" />
+    <link rel="dns-prefetch" href="https://open.er-api.com" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Currency Converter",
+      "description": "Real-time currency converter with accurate exchange rates",
+      "url": "https://your-domain.com",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+      <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h1>Currency Converter</h1>
+        <p>This application requires JavaScript to function properly.</p>
+        <p>Please enable JavaScript in your browser and refresh the page.</p>
+      </div>
+    </noscript>
   </body>
 </html>
