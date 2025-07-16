@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   
+  // GitHub Pages deployment base
+  base: process.env.NODE_ENV === 'production' ? '/CurrencyConverter/' : '/',
+  
   // Build optimizations
   build: {
     // Generate source maps for production debugging
