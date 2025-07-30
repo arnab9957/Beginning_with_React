@@ -11,3 +11,4 @@ export default userContext;
     </card>
 <userContext/> */}
 //it can pass any usestate.
+//NOw we have to create the provider who will provide the function userConteext
